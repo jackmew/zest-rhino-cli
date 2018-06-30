@@ -17,6 +17,10 @@ console.log(
 const run = async () => {
     // { name: 'testProject', package: 'com.rhino', 'starter': 'zest-rhino-singleScreenApp' }
     const answers = await inquirer.askInitReactNativeProject();
+    if(answers.starter === 'zest-rhino-tabBasedApp') {
+      console.log(chalk.yellow('tabBasedApp is creating. Please wait for next zest-rhino-cli release.'));
+      process.exit();
+    }
     if(!files.directoryExists(answers.name)) {
       project.create(answers.name);
     }
