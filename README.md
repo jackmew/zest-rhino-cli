@@ -1,6 +1,6 @@
 # zest-rhino-cli  
 
-### a cli tool to create starter project combined with reat-native, react-native-navigation, mobx...  
+### CLI tool to create starter project combined with reat-native, react-native-navigation, mobx...  
 
 ![zest-rhino-cli-banner](./img/zest-rhino-cli-banner.png)
   
