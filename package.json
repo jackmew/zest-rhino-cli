@@ -1,6 +1,6 @@
 {
   "name": "zest-rhino-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "create a starter for zest-rhino",
   "main": "index.js",
   "scripts": {
